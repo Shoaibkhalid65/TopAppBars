@@ -1,0 +1,27 @@
+Hello!
+In this file i want to deep dive to the top bars in jetpack compose
+
+First of all add the dependencies to get the latest versions of top app bars in material3
+//Material 3 (Compose) Dependency
+     implementation("androidx.compose.material3:material3:1.4.0-alpha16") use latest version
+//Material Icons
+  The dependency to access the material default icons
+     implementation("androidx.compose.material:material-icons-1.7.8")// or latest version
+/// Tip --> Always use the latest versions of all libraries,if you want to update them,go to libs.versions.toml file,then click on the
+            versions of libraries in their an yellow underline shows,then our smart IDE will handle.
+
+First of all lets discuss what is Top bar
+The Top App Bar (previously called Toolbar in Views) is part of Material Design components.
+It sits at the top of your app's screen and typically displays:
+Title of the screen
+Navigation icon (e.g., hamburger or back arrow)
+Action icons (e.g., search, settings)
+Overflow menu
+
+Types of Top bar in Material 3
+1. TopAppBar
+2. CenterAlignedTopAppBar
+3. MediumTopAppBar
+4. MediumFlexibleTopAppBar
+5. LargeTopAppBar
+6. LargeFlexibleTopAppBar
