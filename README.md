@@ -1,55 +1,71 @@
-# Jetpack Compose TopAppBar Practice Project
+# 🚀 Jetpack Compose TopAppBar Practice Project
 
-This repository contains a comprehensive practice project focused on implementing **various types of Top App Bars** using **Jetpack Compose**. The goal of this project is to explore the flexibility, customization, and dynamic behavior of TopAppBars as offered by **Material 3** in Android development.
-
----
-
-## 🚀 Features Covered
-
-### ✅ 1. Basic TopAppBar Types
-This project demonstrates the use of **all standard TopAppBar variants** available in Jetpack Compose Material 3:
-
-- **TopAppBar** – The classic app bar with title and actions.
-- **CenterAlignedTopAppBar** – Title aligned to the center (ideal for medium width screens).
-- **MediumTopAppBar** – Used in layouts with medium-sized vertical space.
-- **LargeTopAppBar** – Offers more height, good for pages with hierarchy.
-- **MediumFlexibleTopAppBar** – Medium app bar with scroll-based collapsing behavior.
-- **LargeFlexibleTopAppBar** – Large app bar that collapses on scroll.
+This repository presents a hands-on exploration of **Jetpack Compose Top App Bars** using **Material 3** and **Material 3 Expressive**. It focuses on the design, behavior, and customization of various TopAppBar types in modern Android UI development.
 
 ---
 
-### 🔄 2. Dynamic Top App Bars
-- Dynamically change the title or icon based on **scroll state** or **user interaction**.
-- Example: AppBar switches between collapsed and expanded titles depending on scroll progress.
+## 🎯 Project Objective
+
+To thoroughly practice and demonstrate the capabilities of **TopAppBars** in Jetpack Compose, including their **standard variants**, **dynamic behavior**, **custom layouts**, and **scroll-responsive collapsing features**.
+
+---
+
+## ✨ Features Covered
+
+### ✅ 1. Standard TopAppBar Variants
+
+Implemented all key variants from **Material 3**:
+
+* `TopAppBar` – Traditional bar with title and action icons.
+* `CenterAlignedTopAppBar` – Centered title for balance and clarity.
+* `MediumTopAppBar` – For medium-density layouts.
+* `LargeTopAppBar` – Spacious app bar for prominent screens.
+* `MediumFlexibleTopAppBar` – Medium app bar with scroll-collapsing interaction.
+* `LargeFlexibleTopAppBar` – Expands and collapses based on scroll state.
+
+---
+
+### 🔄 2. Dynamic TopAppBars
+
+* Changes in **title**, **icon**, or **layout** based on scroll state or user interactions.
+* Example: Switching between expanded and collapsed states dynamically.
 
 ---
 
 ### 🧩 3. Custom TopAppBars
-Created several **custom-designed TopAppBars** to explore different layouts:
 
-- AppBar with custom icons and background.
-- AppBar with search field inside.
-- Fully tailored TopAppBars using `Row`, `Spacer`, `Image`, and `Box` to arrange elements freely.
+Created unique custom app bars using Composables:
 
----
-
-### 📉 4. Collapsing & Expanding Behavior
-Practiced **scroll-responsive** app bars using `TopAppBarScrollBehavior`:
-
-- **enterAlwaysScrollBehavior**
-- **exitUntilCollapsedScrollBehavior**
-- Proper `nestedScroll` integration with `LazyColumn` to collapse/expand AppBars on scroll.
-- Monitored `collapsedFraction` to trigger UI state changes.
+* Custom icons, backgrounds, and images.
+* AppBars with embedded search fields.
+* Layouts built with `Row`, `Box`, `Spacer`, etc., for creative flexibility.
 
 ---
 
-### ☰ 5. Overflow Menu with Dropdown
-Implemented a **DropdownMenu with an overflow icon**:
+### 📉 4. Scroll-Responsive AppBars
 
-- Added an `IconButton` with the three-dot menu.
-- Tapped icon shows a `DropdownMenu`.
-- Menu includes clickable items with actions.
+Used `TopAppBarScrollBehavior` for animated scroll effects:
 
+* `enterAlwaysScrollBehavior`
+* `exitUntilCollapsedScrollBehavior`
+* Integrated with `LazyColumn` and `nestedScroll` for smooth collapsing.
+* Observed `collapsedFraction` to trigger UI logic on scroll.
+
+---
+
+### ☰ 5. Overflow Menu & Dropdowns
+
+* Added **overflow (three-dot)** icon with a **DropdownMenu**.
+* Menu displays action items with defined click handlers.
+
+---
+
+## 🎥 Demo Videos
+
+🔼 **Expandable TopAppBar**       
+https://github.com/user-attachments/assets/7d2c6c79-e642-46a3-9cf8-c9bd92061d14
+🔄 **Dynamic TopAppBar Behavior** 
+https://github.com/user-attachments/assets/5ecd01a9-a99c-4a5d-bd2e-f0d7058d6240
 ---
 
 ## 🛠️ Tech Stack
