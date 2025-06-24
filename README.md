@@ -69,7 +69,10 @@ https://github.com/user-attachments/assets/8e2842ef-5ca8-4704-a6b4-0357cced5484
 
 
 🔄 **Dynamic TopAppBar Behavior** 
-https://github.com/user-attachments/assets/5ecd01a9-a99c-4a5d-bd2e-f0d7058d6240
+
+https://github.com/user-attachments/assets/2701be72-e05e-4b35-a303-82e1b6760cef
+
+
 ---
 
 ## 🛠️ Tech Stack
