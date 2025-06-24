@@ -62,8 +62,12 @@ Used `TopAppBarScrollBehavior` for animated scroll effects:
 
 ## 🎥 Demo Videos
 
-🔼 **Expandable TopAppBar**       
-https://github.com/user-attachments/assets/7d2c6c79-e642-46a3-9cf8-c9bd92061d14
+🔼 **Expandable TopAppBar** 
+
+https://github.com/user-attachments/assets/8e2842ef-5ca8-4704-a6b4-0357cced5484
+
+
+
 🔄 **Dynamic TopAppBar Behavior** 
 https://github.com/user-attachments/assets/5ecd01a9-a99c-4a5d-bd2e-f0d7058d6240
 ---
